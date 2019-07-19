@@ -1,0 +1,1317 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.6.3-Noosa">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>28001</srsid>
+      <srid>5070</srid>
+      <authid>EPSG:5070</authid>
+      <description>NAD83 / Conus Albers</description>
+      <projectionacronym>aea</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="delimitedtext" name="wiretap_counts" id="wiretap_counts_7087aee5_df31_4275_a649_b42eb3b33abb" source="file:///Users/dongyinan1/Desktop/2019Summer/Data_Studio/data-studio-projects/02.Wiretap/wiretap_counts.csv?type=csv&amp;detectTypes=yes&amp;xField=lng&amp;yField=lat&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" name="US_District_Court_Jurisdictions" id="US_District_Court_Jurisdictions_9cbdfa04_e439_4a58_a254_5229c9b45df8" source="./US_District_Court_Jurisdictions/US_District_Court_Jurisdictions.shp" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>US_District_Court_Jurisdictions_9cbdfa04_e439_4a58_a254_5229c9b45df8</item>
+      <item>wiretap_counts_7087aee5_df31_4275_a649_b42eb3b33abb</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings type="1" intersection-snapping="0" enabled="0" mode="2" tolerance="12" unit="1">
+    <individual-layer-settings>
+      <layer-setting type="1" enabled="0" id="US_District_Court_Jurisdictions_9cbdfa04_e439_4a58_a254_5229c9b45df8" tolerance="12" units="1"/>
+      <layer-setting type="1" enabled="0" id="wiretap_counts_7087aee5_df31_4275_a649_b42eb3b33abb" tolerance="12" units="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>-2479705.0017049228772521</xmin>
+      <ymin>21380.56195776350796223</ymin>
+      <xmax>2494276.91878698393702507</xmax>
+      <ymax>3394405.09601033665239811</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>28001</srsid>
+        <srid>5070</srid>
+        <authid>EPSG:5070</authid>
+        <description>NAD83 / Conus Albers</description>
+        <projectionacronym>aea</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" name="wiretap_counts" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="wiretap_counts_7087aee5_df31_4275_a649_b42eb3b33abb"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="US_District_Court_Jurisdictions" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="US_District_Court_Jurisdictions_9cbdfa04_e439_4a58_a254_5229c9b45df8"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer simplifyDrawingTol="1" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="1" readOnly="0" simplifyMaxScale="1" geometry="Polygon" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" styleCategories="AllStyleCategories" minScale="1e+08" simplifyDrawingHints="1" refreshOnNotifyMessage="" maxScale="0">
+      <extent>
+        <xmin>-179.13339233400000694</xmin>
+        <ymin>13.23376000029210076</ymin>
+        <xmax>179.78820800799999802</xmax>
+        <ymax>71.39804840099999694</ymax>
+      </extent>
+      <id>US_District_Court_Jurisdictions_9cbdfa04_e439_4a58_a254_5229c9b45df8</id>
+      <datasource>./US_District_Court_Jurisdictions/US_District_Court_Jurisdictions.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>US_District_Court_Jurisdictions</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" dimensions="2" miny="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol alpha="1" type="fill" name="0" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="50,107,171,170" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="dash" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple">
+        <settings>
+          <text-style fontItalic="0" multilineHeight="1" fontWeight="50" namedStyle="Bold" fontStrikeout="0" fontWordSpacing="0" isExpression="0" fontLetterSpacing="0" fieldName="ABBR" fontCapitals="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontUnderline="0" fontFamily="Arial" previewBkgrdColor="#ffffff" useSubstitutions="0" fontSize="12" fontSizeUnit="Point" textOpacity="1" textColor="67,67,67,255" blendMode="0">
+            <text-buffer bufferDraw="0" bufferSize="1" bufferJoinStyle="128" bufferOpacity="1" bufferBlendMode="0" bufferSizeUnits="MM" bufferNoFill="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="255,255,255,255"/>
+            <background shapeJoinStyle="64" shapeOffsetY="0" shapeDraw="0" shapeOffsetX="0" shapeRotation="0" shapeSizeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeBorderColor="128,128,128,255" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeOffsetUnit="MM" shapeOpacity="1" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeType="0" shapeFillColor="255,255,255,255" shapeSizeY="0" shapeRadiiY="0" shapeSizeUnit="MM" shapeBlendMode="0" shapeSizeX="0" shapeRadiiUnit="MM" shapeRadiiX="0" shapeBorderWidth="0"/>
+            <shadow shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetUnit="MM" shadowScale="100" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetGlobal="1" shadowRadius="1.5" shadowRadiusAlphaOnly="0" shadowDraw="0" shadowUnder="0" shadowOffsetAngle="135" shadowColor="0,0,0,255" shadowOffsetDist="1" shadowOpacity="0.7"/>
+            <substitutions/>
+          </text-style>
+          <text-format plussign="0" decimals="3" autoWrapLength="0" placeDirectionSymbol="0" formatNumbers="0" useMaxLineLengthForAutoWrap="1" reverseDirectionSymbol="0" multilineAlign="4294967295" wrapChar="" rightDirectionSymbol=">" addDirectionSymbol="0" leftDirectionSymbol="&lt;"/>
+          <placement offsetUnits="MM" fitInPolygonOnly="0" rotationAngle="0" yOffset="0" xOffset="0" centroidInside="0" placementFlags="10" preserveRotation="1" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" dist="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" distMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0" offsetType="0" quadOffset="4" maxCurvedCharAngleOut="-25" distUnits="MM" placement="0" repeatDistance="0" maxCurvedCharAngleIn="25" priority="5" repeatDistanceUnits="MM"/>
+          <rendering drawLabels="1" zIndex="0" maxNumLabels="2000" obstacle="1" obstacleType="0" scaleMin="0" upsidedownLabels="0" minFeatureSize="0" displayAll="0" scaleVisibility="0" labelPerPart="0" obstacleFactor="1" limitNumLabels="0" scaleMax="0" mergeLines="0" fontMaxPixelSize="10000" fontLimitPixelSize="0" fontMinPixelSize="3"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dd_properties>
+        </settings>
+      </labeling>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>4</featureBlendMode>
+      <layerOpacity>0.5</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory penWidth="0" scaleDependency="Area" maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" labelPlacementMethod="XHeight" scaleBasedVisibility="0" penColor="#000000" backgroundColor="#ffffff" height="15" minimumSize="0" enabled="0" rotationOffset="270" width="15" lineSizeScale="3x:0,0,0,0,0,0" penAlpha="255" diagramOrientation="Up" barWidth="5" lineSizeType="MM" backgroundAlpha="255" minScaleDenominator="0" opacity="1">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" dist="0" obstacle="0" linePlacementFlags="18" showAll="1" placement="1" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ABBR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DISTRICT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SQ_Miles">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="District_N">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape__Are">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape__Len">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="FID"/>
+        <alias name="" index="1" field="ABBR"/>
+        <alias name="" index="2" field="DISTRICT"/>
+        <alias name="" index="3" field="SQ_Miles"/>
+        <alias name="" index="4" field="Shape_Leng"/>
+        <alias name="" index="5" field="Shape_Area"/>
+        <alias name="" index="6" field="District_N"/>
+        <alias name="" index="7" field="Shape__Are"/>
+        <alias name="" index="8" field="Shape__Len"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="FID"/>
+        <default applyOnUpdate="0" expression="" field="ABBR"/>
+        <default applyOnUpdate="0" expression="" field="DISTRICT"/>
+        <default applyOnUpdate="0" expression="" field="SQ_Miles"/>
+        <default applyOnUpdate="0" expression="" field="Shape_Leng"/>
+        <default applyOnUpdate="0" expression="" field="Shape_Area"/>
+        <default applyOnUpdate="0" expression="" field="District_N"/>
+        <default applyOnUpdate="0" expression="" field="Shape__Are"/>
+        <default applyOnUpdate="0" expression="" field="Shape__Len"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="FID"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="ABBR"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="DISTRICT"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="SQ_Miles"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Shape_Leng"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Shape_Area"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="District_N"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Shape__Are"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Shape__Len"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="FID"/>
+        <constraint desc="" exp="" field="ABBR"/>
+        <constraint desc="" exp="" field="DISTRICT"/>
+        <constraint desc="" exp="" field="SQ_Miles"/>
+        <constraint desc="" exp="" field="Shape_Leng"/>
+        <constraint desc="" exp="" field="Shape_Area"/>
+        <constraint desc="" exp="" field="District_N"/>
+        <constraint desc="" exp="" field="Shape__Are"/>
+        <constraint desc="" exp="" field="Shape__Len"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" type="field" name="FID" hidden="0"/>
+          <column width="-1" type="field" name="ABBR" hidden="0"/>
+          <column width="-1" type="field" name="DISTRICT" hidden="0"/>
+          <column width="-1" type="field" name="SQ_Miles" hidden="0"/>
+          <column width="-1" type="field" name="Shape_Leng" hidden="0"/>
+          <column width="-1" type="field" name="Shape_Area" hidden="0"/>
+          <column width="-1" type="field" name="District_N" hidden="0"/>
+          <column width="-1" type="field" name="Shape__Are" hidden="0"/>
+          <column width="-1" type="field" name="Shape__Len" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="ABBR" editable="1"/>
+        <field name="DISTRICT" editable="1"/>
+        <field name="District_N" editable="1"/>
+        <field name="FID" editable="1"/>
+        <field name="SQ_Miles" editable="1"/>
+        <field name="Shape_Area" editable="1"/>
+        <field name="Shape_Leng" editable="1"/>
+        <field name="Shape__Are" editable="1"/>
+        <field name="Shape__Len" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="ABBR"/>
+        <field labelOnTop="0" name="DISTRICT"/>
+        <field labelOnTop="0" name="District_N"/>
+        <field labelOnTop="0" name="FID"/>
+        <field labelOnTop="0" name="SQ_Miles"/>
+        <field labelOnTop="0" name="Shape_Area"/>
+        <field labelOnTop="0" name="Shape_Leng"/>
+        <field labelOnTop="0" name="Shape__Are"/>
+        <field labelOnTop="0" name="Shape__Len"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>FID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyDrawingTol="1" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" simplifyMaxScale="1" geometry="Point" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" styleCategories="AllStyleCategories" minScale="1e+08" simplifyDrawingHints="0" refreshOnNotifyMessage="" maxScale="0">
+      <extent>
+        <xmin>-155.58278180000002067</xmin>
+        <ymin>18.22083299999999895</ymin>
+        <xmax>-64.89633499999999344</xmax>
+        <ymax>46.72955300000000278</ymax>
+      </extent>
+      <id>wiretap_counts_7087aee5_df31_4275_a649_b42eb3b33abb</id>
+      <datasource>file:./wiretap_counts.csv?type=csv&amp;detectTypes=yes&amp;xField=lng&amp;yField=lat&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wiretap_counts</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxx="0" maxz="0" minz="0" maxy="0" dimensions="2" miny="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol alpha="1" type="marker" name="0" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop v="0" k="angle"/>
+              <prop v="220,6,49,204" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option type="Map" name="properties">
+                    <Option type="Map" name="size">
+                      <Option type="bool" name="active" value="true"/>
+                      <Option type="QString" name="field" value="freq"/>
+                      <Option type="Map" name="transformer">
+                        <Option type="Map" name="d">
+                          <Option type="double" name="exponent" value="0.57"/>
+                          <Option type="double" name="maxSize" value="15"/>
+                          <Option type="double" name="maxValue" value="225"/>
+                          <Option type="double" name="minSize" value="1"/>
+                          <Option type="double" name="minValue" value="1"/>
+                          <Option type="double" name="nullSize" value="0"/>
+                          <Option type="int" name="scaleType" value="2"/>
+                        </Option>
+                        <Option type="int" name="t" value="1"/>
+                      </Option>
+                      <Option type="int" name="type" value="2"/>
+                    </Option>
+                  </Option>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>1</featureBlendMode>
+      <layerOpacity>0.9</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory penWidth="0" scaleDependency="Area" maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" labelPlacementMethod="XHeight" scaleBasedVisibility="0" penColor="#000000" backgroundColor="#ffffff" height="15" minimumSize="0" enabled="0" rotationOffset="270" width="15" lineSizeScale="3x:0,0,0,0,0,0" penAlpha="255" diagramOrientation="Up" barWidth="5" lineSizeType="MM" backgroundAlpha="255" minScaleDenominator="0" opacity="1">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" dist="0" obstacle="0" linePlacementFlags="18" showAll="1" placement="0" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="field_1">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Jurisdiction">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="A.O. Number">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Judge">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Attorney General or Designee">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Offense">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Type">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Location">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Application Date">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Original Order (Days)">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Number of Extensions">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Total Length (Days)">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Installation">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Number of Days in Operation">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Avg. Intercepts Per Day">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Number of Persons Intercepts">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Number of Intercepts">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Number of Incriminating Intercepts">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Total Cost($)">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Other Than Manpower Cost ($)">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Arrests">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Trials">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Motions Granted">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Motions Denied">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Motions Pending">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Persons Convicted">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Cost Related">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Results Related">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Intercept%">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="counts">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="geocode">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="freq">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="field_1"/>
+        <alias name="" index="1" field="Jurisdiction"/>
+        <alias name="" index="2" field="A.O. Number"/>
+        <alias name="" index="3" field="Judge"/>
+        <alias name="" index="4" field="Attorney General or Designee"/>
+        <alias name="" index="5" field="Offense"/>
+        <alias name="" index="6" field="Type"/>
+        <alias name="" index="7" field="Location"/>
+        <alias name="" index="8" field="Application Date"/>
+        <alias name="" index="9" field="Original Order (Days)"/>
+        <alias name="" index="10" field="Number of Extensions"/>
+        <alias name="" index="11" field="Total Length (Days)"/>
+        <alias name="" index="12" field="Installation"/>
+        <alias name="" index="13" field="Number of Days in Operation"/>
+        <alias name="" index="14" field="Avg. Intercepts Per Day"/>
+        <alias name="" index="15" field="Number of Persons Intercepts"/>
+        <alias name="" index="16" field="Number of Intercepts"/>
+        <alias name="" index="17" field="Number of Incriminating Intercepts"/>
+        <alias name="" index="18" field="Total Cost($)"/>
+        <alias name="" index="19" field="Other Than Manpower Cost ($)"/>
+        <alias name="" index="20" field="Arrests"/>
+        <alias name="" index="21" field="Trials"/>
+        <alias name="" index="22" field="Motions Granted"/>
+        <alias name="" index="23" field="Motions Denied"/>
+        <alias name="" index="24" field="Motions Pending"/>
+        <alias name="" index="25" field="Persons Convicted"/>
+        <alias name="" index="26" field="Cost Related"/>
+        <alias name="" index="27" field="Results Related"/>
+        <alias name="" index="28" field="Intercept%"/>
+        <alias name="" index="29" field="counts"/>
+        <alias name="" index="30" field="geocode"/>
+        <alias name="" index="31" field="lat"/>
+        <alias name="" index="32" field="lng"/>
+        <alias name="" index="33" field="freq"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="field_1"/>
+        <default applyOnUpdate="0" expression="" field="Jurisdiction"/>
+        <default applyOnUpdate="0" expression="" field="A.O. Number"/>
+        <default applyOnUpdate="0" expression="" field="Judge"/>
+        <default applyOnUpdate="0" expression="" field="Attorney General or Designee"/>
+        <default applyOnUpdate="0" expression="" field="Offense"/>
+        <default applyOnUpdate="0" expression="" field="Type"/>
+        <default applyOnUpdate="0" expression="" field="Location"/>
+        <default applyOnUpdate="0" expression="" field="Application Date"/>
+        <default applyOnUpdate="0" expression="" field="Original Order (Days)"/>
+        <default applyOnUpdate="0" expression="" field="Number of Extensions"/>
+        <default applyOnUpdate="0" expression="" field="Total Length (Days)"/>
+        <default applyOnUpdate="0" expression="" field="Installation"/>
+        <default applyOnUpdate="0" expression="" field="Number of Days in Operation"/>
+        <default applyOnUpdate="0" expression="" field="Avg. Intercepts Per Day"/>
+        <default applyOnUpdate="0" expression="" field="Number of Persons Intercepts"/>
+        <default applyOnUpdate="0" expression="" field="Number of Intercepts"/>
+        <default applyOnUpdate="0" expression="" field="Number of Incriminating Intercepts"/>
+        <default applyOnUpdate="0" expression="" field="Total Cost($)"/>
+        <default applyOnUpdate="0" expression="" field="Other Than Manpower Cost ($)"/>
+        <default applyOnUpdate="0" expression="" field="Arrests"/>
+        <default applyOnUpdate="0" expression="" field="Trials"/>
+        <default applyOnUpdate="0" expression="" field="Motions Granted"/>
+        <default applyOnUpdate="0" expression="" field="Motions Denied"/>
+        <default applyOnUpdate="0" expression="" field="Motions Pending"/>
+        <default applyOnUpdate="0" expression="" field="Persons Convicted"/>
+        <default applyOnUpdate="0" expression="" field="Cost Related"/>
+        <default applyOnUpdate="0" expression="" field="Results Related"/>
+        <default applyOnUpdate="0" expression="" field="Intercept%"/>
+        <default applyOnUpdate="0" expression="" field="counts"/>
+        <default applyOnUpdate="0" expression="" field="geocode"/>
+        <default applyOnUpdate="0" expression="" field="lat"/>
+        <default applyOnUpdate="0" expression="" field="lng"/>
+        <default applyOnUpdate="0" expression="" field="freq"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="field_1"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Jurisdiction"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="A.O. Number"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Judge"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Attorney General or Designee"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Offense"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Type"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Location"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Application Date"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Original Order (Days)"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Number of Extensions"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Total Length (Days)"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Installation"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Number of Days in Operation"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Avg. Intercepts Per Day"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Number of Persons Intercepts"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Number of Intercepts"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Number of Incriminating Intercepts"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Total Cost($)"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Other Than Manpower Cost ($)"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Arrests"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Trials"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Motions Granted"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Motions Denied"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Motions Pending"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Persons Convicted"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Cost Related"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Results Related"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="Intercept%"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="counts"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="geocode"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="lat"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="lng"/>
+        <constraint unique_strength="0" constraints="0" exp_strength="0" notnull_strength="0" field="freq"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="field_1"/>
+        <constraint desc="" exp="" field="Jurisdiction"/>
+        <constraint desc="" exp="" field="A.O. Number"/>
+        <constraint desc="" exp="" field="Judge"/>
+        <constraint desc="" exp="" field="Attorney General or Designee"/>
+        <constraint desc="" exp="" field="Offense"/>
+        <constraint desc="" exp="" field="Type"/>
+        <constraint desc="" exp="" field="Location"/>
+        <constraint desc="" exp="" field="Application Date"/>
+        <constraint desc="" exp="" field="Original Order (Days)"/>
+        <constraint desc="" exp="" field="Number of Extensions"/>
+        <constraint desc="" exp="" field="Total Length (Days)"/>
+        <constraint desc="" exp="" field="Installation"/>
+        <constraint desc="" exp="" field="Number of Days in Operation"/>
+        <constraint desc="" exp="" field="Avg. Intercepts Per Day"/>
+        <constraint desc="" exp="" field="Number of Persons Intercepts"/>
+        <constraint desc="" exp="" field="Number of Intercepts"/>
+        <constraint desc="" exp="" field="Number of Incriminating Intercepts"/>
+        <constraint desc="" exp="" field="Total Cost($)"/>
+        <constraint desc="" exp="" field="Other Than Manpower Cost ($)"/>
+        <constraint desc="" exp="" field="Arrests"/>
+        <constraint desc="" exp="" field="Trials"/>
+        <constraint desc="" exp="" field="Motions Granted"/>
+        <constraint desc="" exp="" field="Motions Denied"/>
+        <constraint desc="" exp="" field="Motions Pending"/>
+        <constraint desc="" exp="" field="Persons Convicted"/>
+        <constraint desc="" exp="" field="Cost Related"/>
+        <constraint desc="" exp="" field="Results Related"/>
+        <constraint desc="" exp="" field="Intercept%"/>
+        <constraint desc="" exp="" field="counts"/>
+        <constraint desc="" exp="" field="geocode"/>
+        <constraint desc="" exp="" field="lat"/>
+        <constraint desc="" exp="" field="lng"/>
+        <constraint desc="" exp="" field="freq"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" type="field" name="field_1" hidden="0"/>
+          <column width="-1" type="field" name="Jurisdiction" hidden="0"/>
+          <column width="-1" type="field" name="A.O. Number" hidden="0"/>
+          <column width="-1" type="field" name="Judge" hidden="0"/>
+          <column width="-1" type="field" name="Attorney General or Designee" hidden="0"/>
+          <column width="-1" type="field" name="Offense" hidden="0"/>
+          <column width="-1" type="field" name="Type" hidden="0"/>
+          <column width="-1" type="field" name="Location" hidden="0"/>
+          <column width="-1" type="field" name="Application Date" hidden="0"/>
+          <column width="-1" type="field" name="Original Order (Days)" hidden="0"/>
+          <column width="-1" type="field" name="Number of Extensions" hidden="0"/>
+          <column width="-1" type="field" name="Total Length (Days)" hidden="0"/>
+          <column width="-1" type="field" name="Installation" hidden="0"/>
+          <column width="-1" type="field" name="Number of Days in Operation" hidden="0"/>
+          <column width="-1" type="field" name="Avg. Intercepts Per Day" hidden="0"/>
+          <column width="-1" type="field" name="Number of Persons Intercepts" hidden="0"/>
+          <column width="-1" type="field" name="Number of Intercepts" hidden="0"/>
+          <column width="-1" type="field" name="Number of Incriminating Intercepts" hidden="0"/>
+          <column width="-1" type="field" name="Total Cost($)" hidden="0"/>
+          <column width="-1" type="field" name="Other Than Manpower Cost ($)" hidden="0"/>
+          <column width="-1" type="field" name="Arrests" hidden="0"/>
+          <column width="-1" type="field" name="Trials" hidden="0"/>
+          <column width="-1" type="field" name="Motions Granted" hidden="0"/>
+          <column width="-1" type="field" name="Motions Denied" hidden="0"/>
+          <column width="-1" type="field" name="Motions Pending" hidden="0"/>
+          <column width="-1" type="field" name="Persons Convicted" hidden="0"/>
+          <column width="-1" type="field" name="Cost Related" hidden="0"/>
+          <column width="-1" type="field" name="Results Related" hidden="0"/>
+          <column width="-1" type="field" name="Intercept%" hidden="0"/>
+          <column width="-1" type="field" name="counts" hidden="0"/>
+          <column width="-1" type="field" name="geocode" hidden="0"/>
+          <column width="-1" type="field" name="lat" hidden="0"/>
+          <column width="-1" type="field" name="lng" hidden="0"/>
+          <column width="-1" type="field" name="freq" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="A.O. Number" editable="1"/>
+        <field name="Application Date" editable="1"/>
+        <field name="Arrests" editable="1"/>
+        <field name="Attorney General or Designee" editable="1"/>
+        <field name="Avg. Intercepts Per Day" editable="1"/>
+        <field name="Cost Related" editable="1"/>
+        <field name="Installation" editable="1"/>
+        <field name="Intercept%" editable="1"/>
+        <field name="Judge" editable="1"/>
+        <field name="Jurisdiction" editable="1"/>
+        <field name="Location" editable="1"/>
+        <field name="Motions Denied" editable="1"/>
+        <field name="Motions Granted" editable="1"/>
+        <field name="Motions Pending" editable="1"/>
+        <field name="Number of Days in Operation" editable="1"/>
+        <field name="Number of Extensions" editable="1"/>
+        <field name="Number of Incriminating Intercepts" editable="1"/>
+        <field name="Number of Intercepts" editable="1"/>
+        <field name="Number of Persons Intercepts" editable="1"/>
+        <field name="Offense" editable="1"/>
+        <field name="Original Order (Days)" editable="1"/>
+        <field name="Other Than Manpower Cost ($)" editable="1"/>
+        <field name="Persons Convicted" editable="1"/>
+        <field name="Results Related" editable="1"/>
+        <field name="Total Cost($)" editable="1"/>
+        <field name="Total Length (Days)" editable="1"/>
+        <field name="Trials" editable="1"/>
+        <field name="Type" editable="1"/>
+        <field name="counts" editable="1"/>
+        <field name="field_1" editable="1"/>
+        <field name="freq" editable="1"/>
+        <field name="geocode" editable="1"/>
+        <field name="lat" editable="1"/>
+        <field name="lng" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="A.O. Number"/>
+        <field labelOnTop="0" name="Application Date"/>
+        <field labelOnTop="0" name="Arrests"/>
+        <field labelOnTop="0" name="Attorney General or Designee"/>
+        <field labelOnTop="0" name="Avg. Intercepts Per Day"/>
+        <field labelOnTop="0" name="Cost Related"/>
+        <field labelOnTop="0" name="Installation"/>
+        <field labelOnTop="0" name="Intercept%"/>
+        <field labelOnTop="0" name="Judge"/>
+        <field labelOnTop="0" name="Jurisdiction"/>
+        <field labelOnTop="0" name="Location"/>
+        <field labelOnTop="0" name="Motions Denied"/>
+        <field labelOnTop="0" name="Motions Granted"/>
+        <field labelOnTop="0" name="Motions Pending"/>
+        <field labelOnTop="0" name="Number of Days in Operation"/>
+        <field labelOnTop="0" name="Number of Extensions"/>
+        <field labelOnTop="0" name="Number of Incriminating Intercepts"/>
+        <field labelOnTop="0" name="Number of Intercepts"/>
+        <field labelOnTop="0" name="Number of Persons Intercepts"/>
+        <field labelOnTop="0" name="Offense"/>
+        <field labelOnTop="0" name="Original Order (Days)"/>
+        <field labelOnTop="0" name="Other Than Manpower Cost ($)"/>
+        <field labelOnTop="0" name="Persons Convicted"/>
+        <field labelOnTop="0" name="Results Related"/>
+        <field labelOnTop="0" name="Total Cost($)"/>
+        <field labelOnTop="0" name="Total Length (Days)"/>
+        <field labelOnTop="0" name="Trials"/>
+        <field labelOnTop="0" name="Type"/>
+        <field labelOnTop="0" name="counts"/>
+        <field labelOnTop="0" name="field_1"/>
+        <field labelOnTop="0" name="freq"/>
+        <field labelOnTop="0" name="geocode"/>
+        <field labelOnTop="0" name="lat"/>
+        <field labelOnTop="0" name="lng"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>field_1</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="US_District_Court_Jurisdictions_9cbdfa04_e439_4a58_a254_5229c9b45df8"/>
+    <layer id="wiretap_counts_7087aee5_df31_4275_a649_b42eb3b33abb"/>
+  </layerorder>
+  <properties>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <DefaultStyles>
+      <Line type="QString"></Line>
+      <Fill type="QString"></Fill>
+      <RandomColors type="bool">true</RandomColors>
+      <Opacity type="double">1</Opacity>
+      <ColorRamp type="QString"></ColorRamp>
+      <Marker type="QString"></Marker>
+    </DefaultStyles>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WFSLayers type="QStringList"/>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <Gui>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WFSTLayers>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+    </WFSTLayers>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSDefaultMapUnitsPerMm type="double">111319.491</WMSDefaultMapUnitsPerMm>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WCSLayers type="QStringList"/>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <PAL>
+      <TextFormat type="int">0</TextFormat>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+    </PAL>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Measure>
+      <Ellipsoid type="QString">GRS80</Ellipsoid>
+    </Measure>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Lilian</author>
+    <creation>2019-07-18T01:53:02</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
